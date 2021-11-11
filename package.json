@@ -4,7 +4,7 @@
   "description": "This is a Workshop about Api Testing in Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && mocha -t 5000 --reporter mochawesome --reporter-options reportDir=report,reportFilename=ApiTesting",
+    "test": "npm run lint && mocha -t 7000 --reporter mochawesome --reporter-options reportDir=report,reportFilename=ApiTesting",
     "lint": "eslint ./test/**/*.js"
   },
   "repository": {
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/jportegame/workshop-api-testing-js#readme",
   "devDependencies": {
     "chai": "^4.3.4",
+    "chai-subset": "^1.6.0",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
@@ -32,6 +33,7 @@
     "mochawesome": "^7.0.1"
   },
   "dependencies": {
+    "chai-json-schema": "^1.5.1",
     "superagent": "^6.1.0",
     "superagent-promise": "^1.1.0"
   }
