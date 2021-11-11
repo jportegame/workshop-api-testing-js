@@ -180,3 +180,6 @@ dist
 !.vscode/*.code-snippets
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,node
+
+## Reports ##
+report
